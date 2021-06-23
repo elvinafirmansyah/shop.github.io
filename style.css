@@ -47,55 +47,79 @@ ul li{
 .carousel-inner .carousel-caption {
 	text-align: left;
 	margin-bottom: 110px;
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Jost', sans-serif;
 	color: black;
+	font-weight: bold;
 }
 .carousel-inner .carousel-caption h1 {
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 650;
 }
 .carousel-inner .carousel-caption h2 {
-	font-size: 90px;
+	font-size: 120px;
 	color: #fa6464;
 }
 .carousel-inner .carousel-caption span {
-	font-size: 29px;
-	font-weight: 600;
+	font-size: 25px;
+	font-weight: 700;
+
 }
 .carousel-inner .carousel-caption button{
 	align-items: left;
 	margin-bottom: -160px;
-	margin-left: -315px;
+	margin-left: -291px;
 	width: 160px;
 	height: 55px;
-	font-size: 20px;
+	font-size: 19px;
 }
 /*slide2*/
-.carousel-inner .keb-ba {
+.carousel-inner .keb-ba h1{
 	text-align: right;
-	margin-bottom: 110px;
-	font-family: 'Rajdhani', sans-serif;
+	margin-bottom: 100px;
+	font-family: 'Jost', sans-serif;
 	color: black;
+	font-size: 55px;
+	margin-right: -85px;
 }
-.carousel-inner .keb-ba h3 {
-	font-size: 58px;
-	font-weight: 650;
-}
-.carousel-inner .keb-ba .yu{
-	font-size: 20px;
-	color: black;
-}
-.carousel-inner .keb-ba span {
-	font-size: 29px;
-	font-weight: 600;
+.carousel-inner .keb-ba p {
+	font-size: 22px;
+	font-weight: 560;
+	margin-left: 638px;
+	margin-top: -100px;
 }
 .carousel-inner .keb-ba button{
 	align-items: left;
-	margin-bottom: -160px;
-	margin-left: -315px;
+	margin-bottom: -50px;
+	margin-left: 638px;
 	width: 160px;
 	height: 55px;
 	font-size: 20px;
+}
+/*slide3*/
+.carousel-inner .ya-pa{
+	text-align: center;
+	margin-bottom: 110px;
+	font-family: 'Jost', sans-serif;
+	color: black;
+	font-weight: 650;
+}
+.carousel-inner .ya-pa h1 {
+	font-size: 35px;
+	font-weight: 700;
+	color: white;
+}
+.carousel-inner .ya-pa h2 {
+	font-size: 120px;
+	color: white;
+	font-weight: 700;
+}
+.carousel-inner .ya-pa a{
+	font-size: 20px;
+	color: white;
+	font-weight: 650;
+	margin: 0 20px 0 20px;
+	text-decoration: underline;
+	pointer-events: auto;
 }
 /*card jumbotron2*/	
 .card img{
