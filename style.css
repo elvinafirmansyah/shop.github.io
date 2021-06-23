@@ -1,0 +1,83 @@
+*{
+	margin: 0;	
+}
+/*navbar*/
+nav{
+	display: flex;
+}
+/*Navbar*/
+.navbar-brand{
+	font-family: 'Comic Neue', cursive;
+	align-items: center;
+	letter-spacing: 3px;
+	margin-right: 20px;	
+}
+.navbar h5{
+	align-items: center;
+	margin-left: 175px;
+	margin-top: 4px;
+}
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(img/fash.jpg);
+	margin-top: 55px;
+	height: 625px;
+	background-size: cover;
+}
+.jumbotron .display-4{
+	text-align: center;
+	font-size: 75px;
+	font-weight: 590;
+	font-family: 'Rajdhani', sans-serif;
+	padding-top: 150px;	
+	margin-right: 670px;
+}
+.jumbotron h2{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: 'Rajdhani', sans-serif;
+	padding-top: 25px;
+	margin-right: 800px;
+	color: #eb5468;
+}
+.jumbotron p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Rajdhani', sans-serif;
+	padding-top: 25px;
+	margin-right: 670px;
+}
+.tebal{
+	font-weight: 750;
+}
+.tebal1 .tebal{
+	margin-right: 78px;	
+}
+/*card jumbotron2*/
+.card img{
+	width: 410px;
+	height: 250px;
+	background-color: white;
+	padding: 0 70px 0 15px;
+	text-decoration: none;
+}
+.card-title{
+	color: black;
+	text-align: justify;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 25px;
+	margin-top: 50px; 
+	margin-left: 170px;
+	font-weight: 560;
+}
+.card{
+	margin: 60px 10px 100px 15px;
+}	
+.dua{
+	margin-top: 48px;
+}
+.tiga{
+
+}
