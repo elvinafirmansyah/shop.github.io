@@ -11,66 +11,82 @@ nav{
 	align-items: center;
 	letter-spacing: 3px;
 	margin-right: 20px;	
+	color: black;
 }
-.navbar h5{
-	align-items: center;
-	margin-left: 175px;
-	margin-top: 4px;
+.nav-item{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 22px;	
+	font-weight: 650;
+	letter-spacing: 0.8px;
+	color: black;
+	transition: 0.8s;
+	color: white;
+}
+.nav-item a{
+	transition: all .35s ease-in-out;
+	z-index: -1;
+}
+.container span{
+	color: white;
+	text-align: center;
+}
+.collapse{
+	width: 100%;
+	height: 35px;
+}
+.drop li a{
+	text-decoration: none;
+	color: black;
+}
+ul li{
+	display: inline-block;
+	padding: 7px;
 }
 /*Jumbotron*/
-.jumbotron {
-	background-image: url(img/fash.jpg);
-	margin-top: 55px;
-	height: 625px;
-	background-size: cover;
-}
-.jumbotron .display-4{
-	text-align: center;
-	font-size: 75px;
-	font-weight: 590;
+/*slide1*/
+.carousel-inner .carousel-caption {
+	text-align: left;
+	margin-bottom: 110px;
 	font-family: 'Rajdhani', sans-serif;
-	padding-top: 150px;	
-	margin-right: 670px;
+	color: black;
 }
-.jumbotron h2{
-	text-align: center;
-	font-size: 50px;
+.carousel-inner .carousel-caption h1 {
+	font-size: 60px;
+	font-weight: 650;
+}
+.carousel-inner .carousel-caption h2 {
+	font-size: 90px;
+	color: #fa6464;
+}
+.carousel-inner .carousel-caption span {
+	font-size: 29px;
 	font-weight: 600;
-	font-family: 'Rajdhani', sans-serif;
-	padding-top: 25px;
-	margin-right: 800px;
-	color: #eb5468;
 }
-.jumbotron p{
-	text-align: center;
-	font-size: 30px;
-	font-weight: 500;
-	font-family: 'Rajdhani', sans-serif;
-	padding-top: 25px;
-	margin-right: 670px;
+.carousel-inner .carousel-caption button{
+	align-items: left;
+	margin-bottom: -160px;
+	margin-left: -315px;
+	width: 160px;
+	height: 55px;
+	font-size: 20px;
 }
-.tebal{
-	font-weight: 750;
+/*slide2*/
+.slide--2 {
+	margin-left: 90vh;
 }
-.tebal1 .tebal{
-	margin-right: 78px;	
-}
-/*card jumbotron2*/
+/*card jumbotron2*/	
 .card img{
-	width: 410px;
-	height: 250px;
-	background-color: white;
-	padding: 0 70px 0 15px;
-	text-decoration: none;
-}
+	width: 390px;
+	height: 252px;
+}	
 .card-title{
 	color: black;
 	text-align: justify;
 	font-family: 'Rajdhani', sans-serif;
-	font-size: 25px;
-	margin-top: 50px; 
-	margin-left: 170px;
-	font-weight: 560;
+	font-size: 1.5rem;
+	margin-top: 65px; 
+	margin-left: 25px;
+	font-weight: 700;
 }
 .card{
 	margin: 60px 10px 100px 15px;
@@ -80,4 +96,15 @@ nav{
 }
 .tiga{
 
+}
+.card a{
+	text-decoration: none;
+	color: black;
+	text-align: justify;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.1rem;
+	margin-top: 90px; 
+	margin-left: 25px;
+	font-weight: 700;
+	letter-spacing: 1.2px;
 }
