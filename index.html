@@ -28,68 +28,124 @@
     <![endif]-->
   </head>
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #38383d">
+
+    <!--Navbar 2-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #000000 ">
       <div class="container">
         <a class="navbar-brand" href="#">VINFA.SHOP</a>
-        <h5 class="navbar-brand">Happy Holiday Deals on Everything</h5>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse drop navbar-collapse text-white" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="drop"><a class="dropdown-item" href="#">Default</a></li>
+                <li><a class="dropdown-item" href="#">Classic</a></li>
+                <li><a class="dropdown-item" href="#">Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Boxed</a></li>
+                <li><a class="dropdown-item" href="#">Asymmetric</a></li>
+                <li><a class="dropdown-item" href="#">Sidenav</a></li>
+                <li><a class="dropdown-item" href="#">landing</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catalog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Woman</a>
+                  <ul>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Dresses</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Sunglasses</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Boots</a></li>
+                    <li><a href="#">Jewelry</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Men</a></li>
+              </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!--AR Navbar 2-->
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">SUMMER SALE</h1>
-        <h2 class="text-p">Discount 65%</h2>
-        <p class="tebal1">with promo code <span class="tebal">45XU8Q0</span></p>
+    <!--Jumbotron 1-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/fash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 >Summer Sale</h1>
+              <h2 >-65%</h2>
+              <span>with promo code UK92JFO</span>
+              <button type="button" class="btn btn-dark">Shop Now →</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/sepatu.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption slide--2 d-none d-md-block">
+              <h1 >Summer Sale</h1>
+              <h2 >-65%</h2>
+              <span>with promo code UK92JFO</span>
+            </div>
+        <div class="carousel-item">
+          <img src="img/mukaorg.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--AR Jumbotron 1-->
+
+    <!--Jumbotron 2-->
+     <div class="container">
+      <div class="row">
+        <div class="col-4">
+         <div class="card border-light">
+            <img src=img/hat.jpg alt="Card image" />
+              <div class="card-img-overlay">
+                <h4 class="card-title">Summer Hats</h4>
+                <a href="#" class="link-dark">Shop Now →</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-4">
+         <div class="card border-light">
+            <img src=img/menhat.jpg alt="Card image" />
+              <div class="card-img-overlay">
+                <h4 class="card-title">Men Hats</h4>
+                <a href="#" class="link-dark">Shop Now →</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-4">
+         <div class="card border-light">
+           <img src=img/dress.jpg alt="Card image" />
+              <div class="card-img-overlay">
+                <h4 class="card-title">Floral Dresses</h4>
+                <a href="#" class="link-dark">Shop Now →</a>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!--AR Navbar-->
-    <!--Jumbotron-->
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card bg-none text-white satu">
-              <img src="img/hat.jpeg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Summer Hats</h5>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-none text-white ">
-              <img src="img/menhat.jpeg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title dua">Men Hats</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-none text-white">
-              <img src="img/dress.jpeg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title tiga">Floral Dress</h5>
-                </div>
-            </div>
-          </div>
-      </div>
-
-    <!--AR Jumbotron-->
+    <!--AR Jumbotron 2-->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
