@@ -71,8 +71,31 @@ ul li{
 	font-size: 20px;
 }
 /*slide2*/
-.slide--2 {
-	margin-left: 90vh;
+.carousel-inner .keb-ba {
+	text-align: right;
+	margin-bottom: 110px;
+	font-family: 'Rajdhani', sans-serif;
+	color: black;
+}
+.carousel-inner .keb-ba h3 {
+	font-size: 58px;
+	font-weight: 650;
+}
+.carousel-inner .keb-ba .yu{
+	font-size: 20px;
+	color: black;
+}
+.carousel-inner .keb-ba span {
+	font-size: 29px;
+	font-weight: 600;
+}
+.carousel-inner .keb-ba button{
+	align-items: left;
+	margin-bottom: -160px;
+	margin-left: -315px;
+	width: 160px;
+	height: 55px;
+	font-size: 20px;
 }
 /*card jumbotron2*/	
 .card img{
