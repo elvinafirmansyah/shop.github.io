@@ -8,6 +8,9 @@
     <title>Vinfa Web</title>
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--font google-->
@@ -22,6 +25,9 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +45,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse drop navbar-collapse text-white" id="navbarNav">
+        <div class="head">
+         <div class="collapse drop navbar-collapse text-white" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,34 +67,34 @@
                 Catalog
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Woman</a>
-                  <ul>
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Shoes</a></li>
-                    <li><a href="#">Dresses</a></li>
-                    <li><a href="#">Bags</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Sunglasses</a></li>
-                    <li><a href="#">Denim</a></li>
-                    <li><a href="#">Boots</a></li>
-                    <li><a href="#">Jewelry</a></li>
-                  </ul>
-                </li>
-                <li><a class="dropdown-item" href="#">Men</a>
-                  <ul>
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Shoes</a></li>
-                    <li><a href="#">Coats&Jacket</a></li>
-                    <li><a href="#">Bags</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Sunglasses</a></li>
-                    <li><a href="#">Denim</a></li>
-                    <li><a href="#">Sneakers</a></li>
-                  </ul>
-                </li>
+                <li><a class="dropdown-item" href="#">Woman</a></li>
+                <li><a class="dropdown-item" href="#">Men</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">Store Locator</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                <li><a class="dropdown-item" href="#">404</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Blog Post</a></li>
               </ul>
             </li>
           </ul>
+         </div>
         </div>
       </div>
     </nav>
@@ -138,7 +145,7 @@
      <div class="container">
       <div class="row">
         <div class="col-4">
-         <div class="card border-light">
+         <div class="card border-none">
             <img src=img/hat.jpg alt="Card image" />
               <div class="card-img-overlay">
                 <h4 class="card-title">Summer Hats</h4>
@@ -147,7 +154,7 @@
           </div>
         </div>
         <div class="col-4">
-         <div class="card border-light">
+         <div class="card border-none">
             <img src=img/menhat.jpg alt="Card image" />
               <div class="card-img-overlay">
                 <h4 class="card-title">Men Hats</h4>
@@ -156,7 +163,7 @@
           </div>
         </div>
         <div class="col-4">
-         <div class="card border-light">
+         <div class="card border-none">
            <img src=img/dress.jpg alt="Card image" />
               <div class="card-img-overlay">
                 <h4 class="card-title">Floral Dresses</h4>
@@ -168,9 +175,38 @@
     </div>
     <!--AR Jumbotron 2-->
 
+    <!-- Shop by Category -->
+    <div class="container">
+      <div class="row">
+        <div class="col mb-3 text-center">
+          <h2 href="#" class="meone shopby unactivelink" style="text-decoration: none;">Shop By Category</h2>
+        </div>
+     </div>
+     <div class="nav gender justify-content-center mb-10">
+       <a class="nav-link woman active"href="#" data-toggle="tab">Woman</a>
+       <a class="nav-link men active"href="#" data-toggle="tab">Man</a>
+     </div>
+     <div class="container mt-5 mb-5">
+       <div class="owl-carousel owl-theme">
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+         <div class="ml-2 mr-2" style="background-color: #add">1</div>
+       </div>
+     </div>
+    <!-- AR Shop by Category-->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script
