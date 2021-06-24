@@ -5,7 +5,7 @@
 nav{
 	display: flex;
 }
-/*Navbar*/
+/*Navbar Vinfashop*/
 .navbar-brand{
 	font-family: 'Comic Neue', cursive;
 	align-items: center;
@@ -13,8 +13,18 @@ nav{
 	margin-right: 20px;	
 	color: black;
 }
+.navbar-text{
+	margin-right: 70px;
+	font-family: 'Comic Neue', cursive;
+	align-items: center;
+	letter-spacing: 3px;
+	margin-right: 20px;	
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
 .nav-item{
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 22px;	
 	font-weight: 650;
 	letter-spacing: 0.8px;
@@ -30,23 +40,15 @@ nav{
 	color: white;
 	text-align: center;
 }
-.collapse{
+.head{
 	width: 100%;
-	height: 35px;
-}
-.drop li a{
-	text-decoration: none;
-	color: black;
-}
-ul li{
-	display: inline-block;
-	padding: 7px;
-}
+	padding: -1px;
+}	
 /*Jumbotron*/
 /*slide1*/
 .carousel-inner .carousel-caption {
 	text-align: left;
-	margin-bottom: 110px;
+	margin-bottom: 120px;
 	font-family: 'Jost', sans-serif;
 	color: black;
 	font-weight: bold;
@@ -56,7 +58,7 @@ ul li{
 	font-weight: 650;
 }
 .carousel-inner .carousel-caption h2 {
-	font-size: 120px;
+	font-size: 100px;
 	color: #fa6464;
 }
 .carousel-inner .carousel-caption span {
@@ -67,30 +69,31 @@ ul li{
 .carousel-inner .carousel-caption button{
 	align-items: left;
 	margin-bottom: -160px;
-	margin-left: -291px;
+	margin-left: -300px;
 	width: 160px;
 	height: 55px;
 	font-size: 19px;
 }
+	
 /*slide2*/
 .carousel-inner .keb-ba h1{
 	text-align: right;
 	margin-bottom: 100px;
 	font-family: 'Jost', sans-serif;
 	color: black;
-	font-size: 55px;
-	margin-right: -85px;
+	font-size: 50px;
+	margin-right: -68px;
 }
 .carousel-inner .keb-ba p {
 	font-size: 22px;
 	font-weight: 560;
-	margin-left: 638px;
+	margin-left: 650px;
 	margin-top: -100px;
 }
 .carousel-inner .keb-ba button{
 	align-items: left;
 	margin-bottom: -50px;
-	margin-left: 638px;
+	margin-left: 650px;
 	width: 160px;
 	height: 55px;
 	font-size: 20px;
@@ -118,26 +121,39 @@ ul li{
 	color: white;
 	font-weight: 650;
 	margin: 0 20px 0 20px;
-	text-decoration: underline;
 	pointer-events: auto;
+}
+.carousel-inner .ya-pa a:hover{
+	color: lightgray;
+	font-size: 23px;
+	transition-duration: 0.5s;
 }
 /*card jumbotron2*/	
 .card img{
 	width: 390px;
 	height: 252px;
 }	
+.card img:hover{
+ 	transform: scale(1.5);
+}	
 .card-title{
 	color: black;
 	text-align: justify;
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 1.5rem;
 	margin-top: 65px; 
 	margin-left: 25px;
 	font-weight: 700;
 }
 .card{
-	margin: 60px 10px 100px 15px;
+	margin: 40px 10px 100px 15px;
+	border: none;
+	transition: 0.8;
+	border-radius: -4px;
 }	
+.card:hover{
+	transform: scale(1.03);
+}
 .dua{
 	margin-top: 48px;
 }
@@ -148,10 +164,32 @@ ul li{
 	text-decoration: none;
 	color: black;
 	text-align: justify;
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 1.1rem;
 	margin-top: 90px; 
 	margin-left: 25px;
 	font-weight: 700;
 	letter-spacing: 1.2px;
+}
+/*Shop by category*/
+.shopby{
+	font-family: 'Jost', sans-serif;
+	font-size: 2.3rem;
+	color: black;
+	margin-bottom: 1rem;
+	font-weight: 700;
+}
+.gender {
+	padding-bottom: 8rem;
+}
+.gender a  {
+	font-family: 'Jost', sans-serif;
+	color: #fa6464;
+}
+.gender .woman{
+	border-bottom: 0.8px solid #fa6464;
+}
+.gender a:hover {
+	border-bottom: 1px solid #fa6464;
+	color: #fa6464;
 }
