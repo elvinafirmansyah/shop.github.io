@@ -1,5 +1,7 @@
 *{
 	margin: 0;	
+	padding: 0;
+	box-sizing: border-box;
 }
 /*navbar*/
 nav{
@@ -8,7 +10,6 @@ nav{
 /*Navbar Vinfashop*/
 .navbar-brand{
 	font-family: 'Comic Neue', cursive;
-	align-items: center;
 	letter-spacing: 3px;
 	margin-right: 20px;	
 	color: black;
@@ -16,7 +17,6 @@ nav{
 .navbar-text{
 	margin-right: 70px;
 	font-family: 'Comic Neue', cursive;
-	align-items: center;
 	letter-spacing: 3px;
 	margin-right: 20px;	
 	color: white;
@@ -193,3 +193,55 @@ nav{
 	border-bottom: 1px solid #fa6464;
 	color: #fa6464;
 }
+/*coba dulu ini curosel*/
+.kartu{
+	margin: -60px 33px 80px 33px;
+	transition: 0.8;
+	border-radius: -4px;
+	cursor: pointer;
+	padding: 0 60px;
+}
+.kartu:hover{
+	transform: scale(1.03);
+}
+.card-body{
+	text-align: center;
+	cursor: pointer;
+}
+.kenapa{
+	position: relative;
+	display: flex;
+	flex-direction: column;		min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: none;
+	margin-bottom: 30vh;
+	padding: 0 60px;
+}
+.circle1{
+	background-color: white;
+	height: 7rem;
+	width: 25rem;
+	position: absolute;
+	align-items: center;
+	font-family: 'Jost', sans-serif;
+	bottom: -8%;
+	right: 22%;
+	justify-content: center;
+	line-height: 10px;
+	display: flex;	
+	flex-direction: column;
+	flex: 1;
+
+
+}
+.circle1 a{
+	text-decoration: none;
+	align-items: center;
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
